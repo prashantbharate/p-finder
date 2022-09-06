@@ -1,0 +1,88 @@
+#searchbar{
+    width:80%;
+    margin:10px auto;
+}
+#search{
+    text-align: center;
+    font-size: medium;
+    margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius:20px;
+    padding: 8px;
+    border: 0.5px solid rgb(109, 231, 78);
+}
+
+#categories
+{
+    display:flex;
+    justify-content: space-evenly;
+    color: white;
+    cursor: pointer;
+}
+
+h3{
+    width:100px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 20px;
+    
+    color:black;
+    cursor: pointer;
+}
+.h31:hover{
+    background-color:rgb(37, 202, 22);
+    color:white;
+    transition: background-color 0.5s ease;
+
+}
+.h32:hover{
+    background-color:rgb(255, 27, 168);
+    color:white;
+    transition: background-color 0.5s ease;
+
+}
+.h33:hover{
+    background-color:rgb(39, 129, 247);
+    color:white;
+    transition: background-color 0.5s ease;
+ 
+}
+
+@media (max-width:600px) and (min-width: 300px) { 
+    #categories{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(auto);
+        justify-content: space-evenly;
+    }
+    
+h3{
+    width:100px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 20px;
+    
+    color:black;
+    cursor: pointer;
+}
+.h31:hover{
+    background-color:rgb(37, 202, 22);
+    color:white;
+    transition: background-color 0.5s ease;
+
+}
+.h32:hover{
+    background-color:rgb(255, 27, 168);
+    color:white;
+    transition: background-color 0.5s ease;
+
+}
+.h33:hover{
+    background-color:rgb(39, 129, 247);
+    color:white;
+    transition: background-color 0.5s ease;
+ 
+}
+
+ }

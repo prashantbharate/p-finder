@@ -1,0 +1,22 @@
+#container{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(400px,auto);
+    gap:20px;
+    width:80%;
+    margin: auto;  
+}
+
+@media (max-width:600px) and (min-width: 300px) 
+{
+    #container{
+        padding-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(400px,auto);
+        gap:20px;
+        width:80%;
+        margin: auto;  
+    }
+}
